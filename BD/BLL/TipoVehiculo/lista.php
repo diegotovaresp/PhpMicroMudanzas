@@ -1,14 +1,9 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/MarcaVehiculo.class.php');
-
-header("Expires: Mon, 26 Jul 1997 05:00:00 GMT" );
-header("Last-Modified: " . gmdate( "D, d M Y H:i:s" ) . "GMT" );
-header("Cache-Control: no-cache, must-revalidate" );
-header("Pragma: no-cache" );
-header("Content-type: text/x-json");
+include('../../DAO/easyCRUD/TipoVehiculo.class.php');
 header("Access-Control-Allow-Origin: *");
-$MarcaVehiculo=new MarcaVehiculo();
+header("Access-Control-Allow-Headers: *");
+$TipoVehiculo=new TipoVehiculo();
 /* Paging */
 	$sLimit = "";
 	if ( isset( $_GET['start'] ) )
@@ -34,7 +29,7 @@ $buscar=$_GET['search'];
                 
 	}
         
-$rResult =$MarcaVehiculo->tabla_MarcaVehiculo($sWhere,$sLimit, $sOrder);
+$rResult =$TipoVehiculo->tabla_TipoVehiculo($sWhere,$sLimit, $sOrder);
 
 
 echo json_encode($rResult);

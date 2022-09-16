@@ -1,11 +1,16 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/Partida.class.php');
-$Partida=new Partida();
-if($_POST['edit_partida_id']>0){
-    $Partida->idPartida=$_POST['edit_partida_id'];
-$Partida->Partida=$_POST['edit_partida'];
-$Partida->save();
+include('../../DAO/easyCRUD/MarcaVehiculo.class.php');
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+$MarcaVehiculo=new MarcaVehiculo();
+if($_POST['id']>0){
+    $MarcaVehiculo->id=$_POST['id'];
+$MarcaVehiculo->marcaVehiculo=$_POST['marcaVehiculo'];
+$MarcaVehiculo->save();
 }
+$rResult =$MarcaVehiculo->tabla_MarcaVehiculo("","", "");
 
+
+echo json_encode($rResult);
 ?>

@@ -1,9 +1,9 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/Ciudad.class.php');
+include('../../DAO/easyCRUD/Provincia.class.php');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-$Ciudad=new Ciudad();
+$Provincia=new Provincia();
 /* Paging */
 	$sLimit = "";
 	if ( isset( $_GET['start'] ) )
@@ -29,7 +29,7 @@ $buscar=$_GET['search'];
                 
 	}
         
-$rResult =$Ciudad->tabla_Ciudad($sWhere,$sLimit, $sOrder);
+$rResult =$Provincia->tabla_Provincia($sWhere,$sLimit, $sOrder);
 
 
 echo json_encode($rResult);

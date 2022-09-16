@@ -1,26 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="" />
+    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/logeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/Db.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/General.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/Log.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Ciudad.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Distrito.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/MarcaVehiculo.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/ModeloMarcaVehiculo.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Provincia.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/TipoVehiculo.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/easyCRUD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/settings.ini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PhpMicroMudanzas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2EeOwmWUSLtIMPVWKn5uRoELvvV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Proyectos/PhpMicroMudanzas/BD/BLL",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL" />
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\DAO\easyCRUD" />
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL\MarcaVehiculo" />
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\DAO" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,7 +103,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662952827650</updated>
+      <workItem from="1662952829754" duration="10492000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

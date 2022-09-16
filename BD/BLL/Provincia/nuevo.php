@@ -1,15 +1,14 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/Ciudad.class.php');
+include('../../DAO/easyCRUD/Provincia.class.php');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-$Ciudad=new Ciudad();
-$Ciudad->ciudad=$_POST['ciudad'];
-$Ciudad->provincia_id=$_POST['provinciaId'];
+$Provincia=new Provincia();
+$Provincia->provincia=$_POST['provincia'];
 
-$Ciudad->create();
+$Provincia->create();
 
-$rResult =$Ciudad->tabla_Ciudad("","", "");
+$rResult =$Provincia->tabla_Provincia("","", "");
 
 
 echo json_encode($rResult);

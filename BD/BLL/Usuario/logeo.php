@@ -42,7 +42,6 @@ if ($rw["idUsuario"]>0)
     $_SESSION['Name']=$rw["Usuario"];
     $_SESSION['Fono']=$rw["Telefono"];
     $_SESSION['Email']=$rw["Email"];
-    $usuario->LogIngreso($rw["idUsuario"], $diahora, $ip);
  echo '1';
  
 

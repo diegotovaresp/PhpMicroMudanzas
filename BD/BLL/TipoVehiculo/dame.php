@@ -1,10 +1,10 @@
 <?php
 session_start();
 date_default_timezone_set("America/Lima");
-include('../../DAO/easyCRUD/MarcaVehiculo.class.php');
-
+include('../../DAO/easyCRUD/TipoVehiculo.class.php');
 header("Access-Control-Allow-Origin: *");
-$MarcaVehiculo=new MarcaVehiculo();
+header("Access-Control-Allow-Headers: *");
+$TipoVehiculo=new TipoVehiculo();
 
-echo json_encode($MarcaVehiculo->dame($_POST['id']));
+echo json_encode($TipoVehiculo->dame($_POST['id']));
 ?>

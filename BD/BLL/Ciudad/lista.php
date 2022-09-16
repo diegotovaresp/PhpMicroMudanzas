@@ -1,36 +1,20 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/MarcaVehiculo.class.php');
+include('../../DAO/easyCRUD/Ciudad.class.php');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-$MarcaVehiculo=new MarcaVehiculo();
+$Ciudad=new Ciudad();
 /* Paging */
-	$sLimit = "";
-	if ( isset( $_GET['start'] ) )
-	{
-		$sLimit = "LIMIT ".$_GET['start'].", ".$_GET['length'];
-	}
-/* Ordering */
-$sOrder = "";
-	$order=$_GET['order'];        
-	if ( isset( $order ) )
-	{
-		$sOrder = "ORDER BY  ";
-		foreach ($order as $ord){
-                 $sOrder .= fnColumnToField($ord['column'])." ".$ord['dir'].", "; 
-              }
-              $sOrder = substr_replace( $sOrder, "", -2 );
-	}
-$buscar=$_GET['search'];
-	if ( $buscar['value'] != "" )
-	{
-		$sWhere = " WHERE   marcaVehiculo LIKE '%".$buscar['value']."%' ";
-              
-                
-	}
-        
-$rResult =$MarcaVehiculo->tabla_MarcaVehiculo($sWhere,$sLimit, $sOrder);
+$rResult =$Ciudad->tabla_Ciudad();
+$a = array();
+foreach ($rResult as $Clien){
+    $a["id"]=$Clien["id"];
+    $a["ciudad"]=$Clien["ciudad"];
+    $provincia = $Ciudad->dameProvincia($Clien["id"]);
+    $a["provincia"]=$provincia;
+    $b[]=$a;
+}
 
+echo json_encode($b);
 
-echo json_encode($rResult);
 ?>

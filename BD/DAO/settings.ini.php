@@ -1,6 +1,6 @@
 ;<?php return; ?>
 [SQL]
 host = localhost
-user = 	stagegam_goplay
-password = bingo123
-dbname = stagegam_bingo
+user = 	hiltores_mud
+password = moving2468
+dbname = hiltores_mudanzas

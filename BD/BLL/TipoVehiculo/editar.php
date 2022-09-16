@@ -1,13 +1,15 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/MarcaVehiculo.class.php');
-
+include('../../DAO/easyCRUD/TipoVehiculo.class.php');
 header("Access-Control-Allow-Origin: *");
-$MarcaVehiculo=new MarcaVehiculo();
+header("Access-Control-Allow-Headers: *");
+$TipoVehiculo=new TipoVehiculo();
 if($_POST['id']>0){
-    $MarcaVehiculo->id=$_POST['id'];
-$MarcaVehiculo->marcaVehiculo=$_POST['marcaVehiculo'];
-$MarcaVehiculo->save();
+    $TipoVehiculo->id=$_POST['id'];
+$TipoVehiculo->tipoVehiculo=$_POST['tipoVehiculo'];
+$TipoVehiculo->save();
 }
 
+$rResult =$TipoVehiculo->tabla_TipoVehiculo("","", "");
+echo json_encode($rResult);
 ?>

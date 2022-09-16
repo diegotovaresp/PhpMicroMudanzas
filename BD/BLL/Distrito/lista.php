@@ -1,36 +1,24 @@
 <?php
 session_start();
-include('../../DAO/easyCRUD/Ciudad.class.php');
+include('../../DAO/easyCRUD/Distrito.class.php');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-$Ciudad=new Ciudad();
+$Distrito=new Distrito();
 /* Paging */
-	$sLimit = "";
-	if ( isset( $_GET['start'] ) )
-	{
-		$sLimit = "LIMIT ".$_GET['start'].", ".$_GET['length'];
-	}
-/* Ordering */
-$sOrder = "";
-	$order=$_GET['order'];        
-	if ( isset( $order ) )
-	{
-		$sOrder = "ORDER BY  ";
-		foreach ($order as $ord){
-                 $sOrder .= fnColumnToField($ord['column'])." ".$ord['dir'].", "; 
-              }
-              $sOrder = substr_replace( $sOrder, "", -2 );
-	}
-$buscar=$_GET['search'];
-	if ( $buscar['value'] != "" )
-	{
-		$sWhere = " WHERE   marcaVehiculo LIKE '%".$buscar['value']."%' ";
-              
-                
-	}
-        
-$rResult =$Ciudad->tabla_Ciudad($sWhere,$sLimit, $sOrder);
+$rResult =$Distrito->tabla_Distrito();
+$a = array();
+foreach ($rResult as $Clien){
+    $a["id"]=$Clien["id"];
+    $a["distrito"]=$Clien["distrito"];
+    $city = $Distrito->dameCiudad($Clien["ciudad_id"]);
+    $rr["id"] = $city["id"];
+    $rr["ciudad"] = $city["ciudad"];
+    $prov = $Distrito->dameProvincia($city["provincia_id"]);
+    $rr["provincia"] = $prov;
+    $a["ciudad"]=$rr;
+    $b[]=$a;
+}
 
+echo json_encode($b);
 
-echo json_encode($rResult);
 ?>
