@@ -9,23 +9,43 @@
 			# Primary Key of the Table
 			protected $pk	 = 'id';
                         
-       public function tabla_Usuario($where="",$limit="", $order=""){
+       public function tabla_Usuario(){
 
 	$sql="SELECT SQL_CALC_FOUND_ROWS p.* FROM usuario p ";
 
-        $sql.=$where;
 
-	$sql.=" ";
-
-	$sql.=$order;
-
-	$sql.=" ";
-
-	$sql.=$limit; 
-        
         return $this->exec($sql);
 
 	}
+
+        public function tabla_Chofer(){
+
+            $sql="SELECT SQL_CALC_FOUND_ROWS p.* FROM usuario p WHERE chofer=1 ";
+            return $this->exec($sql);
+
+        }
+
+        public function tabla_Administrador(){
+
+            $sql="SELECT SQL_CALC_FOUND_ROWS p.* FROM usuario p WHERE administrador=1 ";
+            return $this->exec($sql);
+
+        }
+        public function tabla_ClientesEmpresa(){
+
+            $sql="SELECT SQL_CALC_FOUND_ROWS p.* FROM usuario p WHERE empresa=1 ";
+            return $this->exec($sql);
+
+        }
+
+        public function tabla_Clientes(){
+
+            $sql="SELECT SQL_CALC_FOUND_ROWS p.* FROM usuario p WHERE cliente=1 ";
+
+
+            return $this->exec($sql);
+
+        }
         
         
         

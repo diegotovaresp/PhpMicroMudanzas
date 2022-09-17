@@ -10,7 +10,6 @@ $Ciudad->ciudad=$_POST['ciudad'];
 $Ciudad->provincia_id=$_POST['provinciaId'];
 $Ciudad->save();
 }
-$rResult =$Ciudad->tabla_Ciudad("","", "");
 
 
 $rResult =$Ciudad->tabla_Ciudad();

@@ -1,70 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Distrito/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/MarcaVehiculo/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/ModeloMarcaVehiculo/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Provincia/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/TipoVehiculo/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/logeo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/Db.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/General.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/Log.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Ciudad.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Distrito.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/MarcaVehiculo.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/ModeloMarcaVehiculo.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Provincia.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/TipoVehiculo.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/easyCRUD.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/settings.ini.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhpMicroMudanzas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="TODO">
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/administradores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/chofer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/clientes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/clientesempresa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Vehiculo.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -83,12 +41,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Proyectos/PhpMicroMudanzas/BD/BLL",
+    "last_opened_file_path": "C:/Proyectos/PhpMicroMudanzas/BD/BLL/Usuario",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL\Usuario" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\DAO\easyCRUD" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL\MarcaVehiculo" />
@@ -104,7 +63,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662952827650</updated>
       <workItem from="1662952829754" duration="10492000" />
+      <workItem from="1663368364837" duration="2512000" />
     </task>
+    <task id="LOCAL-00001" summary="TODO">
+      <created>1663368663123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663368663123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO" />
   </component>
 </project>
