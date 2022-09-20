@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="TODO">
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/administradores.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/chofer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/clientes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/clientesempresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/dame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/editar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/error_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/lista.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/BLL/Vehiculo/nuevo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Vehiculo.class.php" afterDir="false" />
+    <list default="true" id="6393d9dd-ba61-46a8-a149-f2f7e652b6b5" name="Changes" comment="hh">
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Servicio/dame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Servicio/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Servicio/error_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Servicio/lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Servicio/nuevo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/editar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/nuevoadministrador.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/nuevochofer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/nuevoclempresa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/BLL/Usuario/nuevocliente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Cotizacion.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Servicio.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Viaje.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BLL/Ciudad/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/DAO/easyCRUD/Usuario.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/BLL/Usuario/dame.php" beforeDir="false" afterPath="$PROJECT_DIR$/BD/BLL/Usuario/dame.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +49,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL\Usuario" />
-      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\DAO\easyCRUD" />
+      <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\BLL\MarcaVehiculo" />
       <recent name="C:\Proyectos\PhpMicroMudanzas\BD\DAO" />
     </key>
@@ -63,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662952827650</updated>
       <workItem from="1662952829754" duration="10492000" />
-      <workItem from="1663368364837" duration="2512000" />
+      <workItem from="1663368364837" duration="9876000" />
     </task>
     <task id="LOCAL-00001" summary="TODO">
       <created>1663368663123</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663368663123</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hh">
+      <created>1663373729465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663373729465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO" />
+    <MESSAGE value="hh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hh" />
   </component>
 </project>

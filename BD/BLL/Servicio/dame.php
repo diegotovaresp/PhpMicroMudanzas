@@ -1,10 +1,10 @@
 <?php
 session_start();
 date_default_timezone_set("America/Lima");
-include('../../DAO/easyCRUD/Usuario.class.php');
+include('../../DAO/easyCRUD/Servicio.class.php');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-$Usuario=new Usuario();
+$Servicio=new Servicio();
 
-echo json_encode($Usuario->verificar_email($_POST['email']));
+echo json_encode($Servicio->dame($_POST['id']));
 ?>
